@@ -3,7 +3,6 @@ name "tmtc_mock"
 using_library "telemetry_telecommand"
 
 import_types_from "base"
-import_types_from "tmtc_mockTypes.hpp"
 import_types_from "telemetry_telecommand/Messages.hpp"
 
 task_context "Task" do
