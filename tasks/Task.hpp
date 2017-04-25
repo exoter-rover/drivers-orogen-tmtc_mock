@@ -25,6 +25,8 @@ namespace tmtc_mock {
     {
 	friend class TaskBase;
     protected:
+        bool startPeriodicCont = true;
+        base::Time lastTime;
 
 
 
